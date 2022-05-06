@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
 
 
-    ## 範例三：爬取一個/多個頻道的『所有影片留言』
+    ## 範例三：爬取一個/多個頻道的『所有影片留言』(先執行範例2取得影片列表)
     # -關於force參數的解釋請詳見共編:https://docs.google.com/document/d/1ds6qbIJ5yAkpkHMP2rin2KWFtkl2YCD2nP-PbmVadGs/edit
     api.get_videoComment(AUTH_KEY[0],['少康戰情室'],'2020-12-30', '2020-12-31',True) #爬取2020年少康戰情室的所有影片的留言
     api.get_videoComment(AUTH_KEY[0],['少康戰情室','關鍵時刻'],'2020-12-31', '2020-12-31',True) #爬取2020年少康戰情室、關鍵時刻的所有影片的留言
