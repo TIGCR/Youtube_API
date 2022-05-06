@@ -1,0 +1,1 @@
+斷詞檔案使用可參考sentiword.txt與senti.xlsx
